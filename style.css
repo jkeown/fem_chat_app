@@ -88,6 +88,9 @@ img {
   flex-direction: column;
   box-shadow: 3px 5px 15px -5px var(--dark-grayish-violet);
 }
+.app h1 {
+  display: none;
+}
 .top-case {
   position: relative;
   height: 25px;
