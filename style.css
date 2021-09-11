@@ -113,6 +113,12 @@ img {
   margin-bottom: 0.25rem;
   box-shadow: var(--box-shadow-primary);
 }
+.walker-contact button {
+  background: transparent;
+  border: none;
+  font-weight: inherit;
+  color: inherit;
+}
 .walker-contact-main {
   display: flex;
   align-items: center;
@@ -175,12 +181,14 @@ img {
   align-items: center;
   letter-spacing: 0.25px;
 }
-.walk-option button {
+.walk-option input[type="radio"] {
+  opacity: 0;
+}
+.radio {
   margin-right: 0.5rem;
   height: 0.8rem;
   width: 0.8rem;
   border-radius: 50%;
-  background: transparent;
   border: 1px solid var(--very-light-magenta);
 }
 .price {
