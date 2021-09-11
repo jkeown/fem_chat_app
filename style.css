@@ -182,7 +182,7 @@ img {
   letter-spacing: 0.25px;
 }
 .walk-option input[type="radio"] {
-  opacity: 0;
+  display: none;
 }
 .radio {
   margin-right: 0.5rem;
